@@ -1378,6 +1378,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -4801,7 +4946,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 91.44) (xy 53.34 91.44)
+			(xy 48.26 91.44) (xy 54.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4868,6 +5013,16 @@
 			(type default)
 		)
 		(uuid "4400296d-3820-4fa2-9b81-6e50b01a9f61")
+	)
+	(wire
+		(pts
+			(xy 62.23 91.44) (xy 66.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4404c3da-bc3e-46f9-8e18-4e6e62d8c561")
 	)
 	(wire
 		(pts
@@ -5490,7 +5645,7 @@
 		(uuid "0633ff03-192e-47f3-92c1-53e56970dd33")
 	)
 	(label "PA3"
-		(at 53.34 91.44 180)
+		(at 66.04 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6864,6 +7019,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 58.42 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d665181-9fdf-499c-81f4-fee199adcf31")
+		(property "Reference" "D8"
+			(at 58.7375 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 58.7375 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e87a36f9-f39c-497d-b386-32cf0a8b6c45")
+		)
+		(pin "1"
+			(uuid "94146a91-5e2a-4de3-93fe-0e6367a757e6")
+		)
+		(instances
+			(project ""
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 154.94 0)
 		(unit 1)
@@ -7198,7 +7421,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Driver_Motor:DRV8210DRLR")
 		(lib_id "Driver_Motor:DRV8210DRLR")
 		(at 60.96 151.13 0)
 		(unit 1)
@@ -8299,28 +8521,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "3392f46f-e2ef-4ee6-922d-3dbc32e69926")
+			(uuid "3392f46f-e2ef-4ee6-922d-3dbc32e69927")
 		)
 		(pin "6"
-			(uuid "a83fb662-edb1-4a2b-a69f-827718a2fff9")
+			(uuid "a83fb662-edb1-4a2b-a69f-827718a2fffa")
 		)
 		(pin "8"
-			(uuid "5ae9fef9-3fbc-4a90-954d-15e896853147")
+			(uuid "5ae9fef9-3fbc-4a90-954d-15e896853148")
 		)
 		(pin "1"
-			(uuid "0ba04c80-9a46-42ce-8034-00ef0a7de2ea")
+			(uuid "0ba04c80-9a46-42ce-8034-00ef0a7de2eb")
 		)
 		(pin "7"
-			(uuid "9fad9bfb-c863-4ee8-a82f-1414537c26fb")
+			(uuid "9fad9bfb-c863-4ee8-a82f-1414537c26fc")
 		)
 		(pin "3"
-			(uuid "3012798b-e07b-4670-9115-cd9ec0985874")
+			(uuid "3012798b-e07b-4670-9115-cd9ec0985875")
 		)
 		(pin "5"
-			(uuid "684d43a6-58da-46f9-9607-0506c668f906")
+			(uuid "684d43a6-58da-46f9-9607-0506c668f907")
 		)
 		(pin "4"
-			(uuid "e6c21d89-31e2-4cf8-80e8-7f1011866a15")
+			(uuid "e6c21d89-31e2-4cf8-80e8-7f1011866a16")
 		)
 		(instances
 			(project ""
@@ -10093,28 +10315,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "3392f46f-e2ef-4ee6-922d-3dbc32e69926")
+			(uuid "3392f46f-e2ef-4ee6-922d-3dbc32e69928")
 		)
 		(pin "6"
-			(uuid "a83fb662-edb1-4a2b-a69f-827718a2fff9")
+			(uuid "a83fb662-edb1-4a2b-a69f-827718a2fffb")
 		)
 		(pin "8"
-			(uuid "5ae9fef9-3fbc-4a90-954d-15e896853147")
+			(uuid "5ae9fef9-3fbc-4a90-954d-15e896853149")
 		)
 		(pin "1"
-			(uuid "0ba04c80-9a46-42ce-8034-00ef0a7de2ea")
+			(uuid "0ba04c80-9a46-42ce-8034-00ef0a7de2ec")
 		)
 		(pin "7"
-			(uuid "9fad9bfb-c863-4ee8-a82f-1414537c26fb")
+			(uuid "9fad9bfb-c863-4ee8-a82f-1414537c26fd")
 		)
 		(pin "3"
-			(uuid "3012798b-e07b-4670-9115-cd9ec0985874")
+			(uuid "3012798b-e07b-4670-9115-cd9ec0985876")
 		)
 		(pin "5"
-			(uuid "684d43a6-58da-46f9-9607-0506c668f906")
+			(uuid "684d43a6-58da-46f9-9607-0506c668f908")
 		)
 		(pin "4"
-			(uuid "e6c21d89-31e2-4cf8-80e8-7f1011866a15")
+			(uuid "e6c21d89-31e2-4cf8-80e8-7f1011866a17")
 		)
 		(instances
 			(project ""
@@ -10812,7 +11034,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Driver_Motor:DRV8210DRLR")
 		(lib_id "Driver_Motor:DRV8210DRLR")
 		(at 60.96 125.73 0)
 		(unit 1)
