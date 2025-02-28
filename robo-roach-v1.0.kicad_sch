@@ -5,6 +5,260 @@
 	(uuid "bfbac227-b3e4-47e8-9776-0e31b83cca14")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:LMV358"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LMV358"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMV358_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV358_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV358_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Battery_Management:BQ21040DBV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1573,156 +1827,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2051,293 +2155,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Opamp_Dual"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Opamp_Dual"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual operational amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_opamp_dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Opamp_Dual_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Opamp_Dual_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Opamp_Dual_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3603,175 +3420,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oscillator:ASCO"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at -7.62 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ASCO"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
-				(at 2.54 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
-				(at -5.715 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Crystal Clock Oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Oscillator*Abracon*ASCO*1.6x1.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ASCO_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 2.54) (xy -5.08 2.54) (xy -5.08 3.81) (xy -4.445 3.81) (xy -4.445 2.54) (xy -3.81 2.54)
-						(xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ASCO_1_1"
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "Tri-State"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Switching:TLV61070ADBV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4890,19 +4538,25 @@
 		(uuid "077dada3-0efb-4abe-b2b5-ccd40e703ce0")
 	)
 	(junction
+		(at 113.03 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a32310d-cd1f-48ee-9d2f-c8352f699c9d")
+	)
+	(junction
+		(at 255.27 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20b219c5-6177-46cd-9a69-b28671fe5ed9")
+	)
+	(junction
 		(at 153.67 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "226d83d6-2030-4769-8687-b550e310641b")
 	)
 	(junction
-		(at 168.91 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bad8191-5408-4deb-b4d9-1c34f483e1d4")
-	)
-	(junction
-		(at 215.9 125.73)
+		(at 214.63 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ec4c517-a1af-4ed1-8194-7e54df6a81c5")
@@ -4914,16 +4568,16 @@
 		(uuid "49a73592-7d17-4873-b28e-7cf3077d09ae")
 	)
 	(junction
+		(at 128.27 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bdef55e-59e4-41ed-8935-9f271e1856ac")
+	)
+	(junction
 		(at 128.27 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5adec221-9f19-4c75-bb0e-8e5d8cbf48a0")
-	)
-	(junction
-		(at 128.27 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "805842e9-67ab-48ec-8a46-82a7543ff98a")
 	)
 	(junction
 		(at 241.3 85.09)
@@ -4938,16 +4592,16 @@
 		(uuid "8925e499-20e6-4164-9996-276139bd0505")
 	)
 	(junction
+		(at 168.91 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce42489-cd55-4185-ba75-2519a22bde48")
+	)
+	(junction
 		(at 153.67 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96626323-9ede-4273-aace-87253920ed1b")
-	)
-	(junction
-		(at 113.03 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99d02fc5-0e0f-4411-b6f4-64c1c7a22954")
+		(uuid "96e3b607-b86d-4765-8c3a-f5f85d4dbd47")
 	)
 	(junction
 		(at 168.91 78.74)
@@ -4988,10 +4642,6 @@
 	(no_connect
 		(at 220.98 64.77)
 		(uuid "6f16bcff-1a5f-46ea-be2f-0e97b727fc48")
-	)
-	(no_connect
-		(at 27.94 91.44)
-		(uuid "e0492f7a-72b9-4bfd-80f7-1ad057c8559e")
 	)
 	(wire
 		(pts
@@ -5195,16 +4845,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 91.44) (xy 54.61 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35630373-6133-4c36-a55b-d56cd2f8233e")
-	)
-	(wire
-		(pts
 			(xy 130.81 139.7) (xy 125.73 139.7)
 		)
 		(stroke
@@ -5262,16 +4902,6 @@
 			(type default)
 		)
 		(uuid "4400296d-3820-4fa2-9b81-6e50b01a9f61")
-	)
-	(wire
-		(pts
-			(xy 62.23 91.44) (xy 66.04 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4404c3da-bc3e-46f9-8e18-4e6e62d8c561")
 	)
 	(wire
 		(pts
@@ -5462,6 +5092,16 @@
 			(type default)
 		)
 		(uuid "73a2525c-34b5-4e63-b1ae-25f52d948ead")
+	)
+	(wire
+		(pts
+			(xy 245.11 139.7) (xy 255.27 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795aaa77-d1b3-48d3-8fc1-bbcb3ff38e78")
 	)
 	(wire
 		(pts
@@ -5775,7 +5415,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 127) (xy 215.9 125.73)
+			(xy 214.63 127) (xy 214.63 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5785,7 +5425,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 125.73) (xy 215.9 125.73)
+			(xy 222.25 125.73) (xy 214.63 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5892,16 +5532,6 @@
 			(justify left bottom)
 		)
 		(uuid "0633ff03-192e-47f3-92c1-53e56970dd33")
-	)
-	(label "PA3"
-		(at 66.04 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09420b48-58ef-402b-a05d-e84e933a32f9")
 	)
 	(label "PB2"
 		(at 46.99 149.86 0)
@@ -6144,6 +5774,75 @@
 		(uuid "f7730efa-a81a-49bc-82d7-c0d2f3f53690")
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 261.62 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "003df087-3701-4f00-987e-847e81ec86fe")
+		(property "Reference" "XC6"
+			(at 264.16 86.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 264.16 88.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 261.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1022e2c5-b567-4a71-be12-6fdc813bb7a9")
+		)
+		(pin "1"
+			(uuid "7eb732ff-fd0e-46ca-b83d-bfc04301d960")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "XC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 97.79 0)
 		(unit 1)
@@ -6294,7 +5993,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "IRLED"
 			(at 135.89 132.3974 90)
 			(effects
 				(font
@@ -6413,17 +6112,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 215.9 125.73 0)
+		(lib_id "power:VBUS")
+		(at 207.01 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ca56904-a36c-4ebe-87ce-b7fb311ca020")
-		(property "Reference" "#PWR09"
-			(at 215.9 129.54 0)
+		(uuid "0b96a642-ced0-4246-aee1-382e111d7fd9")
+		(property "Reference" "#PWR044"
+			(at 207.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,8 +6130,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 215.9 120.65 0)
+		(property "Value" "VBUS"
+			(at 207.01 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 125.73 0)
+			(at 207.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6148,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 125.73 0)
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81e4d922-dd82-4901-b04c-deec806fed04")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 214.63 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ca56904-a36c-4ebe-87ce-b7fb311ca020")
+		(property "Reference" "#PWR09"
+			(at 214.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 215.9 125.73 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,7 +6262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20k"
 			(at 247.65 148.5899 0)
 			(effects
 				(font
@@ -6558,7 +6323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11eab702-f907-4b76-8b12-524200416787")
-		(property "Reference" "C5"
+		(property "Reference" "XC5"
 			(at 85.09 35.5535 0)
 			(effects
 				(font
@@ -6612,7 +6377,7 @@
 		(instances
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "C5")
+					(reference "XC5")
 					(unit 1)
 				)
 			)
@@ -6915,7 +6680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 134.62 124.4599 0)
 			(effects
 				(font
@@ -6985,7 +6750,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "IRLED"
 			(at 152.4 132.3974 90)
 			(effects
 				(font
@@ -7037,35 +6802,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 186.69 90.17 0)
-		(unit 3)
+		(lib_id "power:GND")
+		(at 255.27 144.78 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "292eca25-fb6b-4c70-acff-b71f5053f658")
-		(property "Reference" "U7"
-			(at 185.42 88.8999 0)
+		(uuid "2abf57d3-8c76-476c-94cc-3c68314aa5ce")
+		(property "Reference" "#PWR027"
+			(at 255.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "Opamp_Dual"
-			(at 185.42 91.4399 0)
+		(property "Value" "GND"
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 90.17 0)
+			(at 255.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,8 +6837,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 90.17 0)
+		(property "Datasheet" ""
+			(at 255.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,80 +6846,23 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier"
-			(at 186.69 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 186.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 186.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 186.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 186.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3392f46f-e2ef-4ee6-922d-3dbc32e69926")
-		)
-		(pin "6"
-			(uuid "a83fb662-edb1-4a2b-a69f-827718a2fff9")
-		)
-		(pin "8"
-			(uuid "5ae9fef9-3fbc-4a90-954d-15e896853147")
 		)
 		(pin "1"
-			(uuid "0ba04c80-9a46-42ce-8034-00ef0a7de2ea")
-		)
-		(pin "7"
-			(uuid "9fad9bfb-c863-4ee8-a82f-1414537c26fb")
-		)
-		(pin "3"
-			(uuid "3012798b-e07b-4670-9115-cd9ec0985874")
-		)
-		(pin "5"
-			(uuid "684d43a6-58da-46f9-9607-0506c668f906")
-		)
-		(pin "4"
-			(uuid "e6c21d89-31e2-4cf8-80e8-7f1011866a15")
+			(uuid "acc6fdba-ff2c-45c3-8ad0-ae7ef0c9aa93")
 		)
 		(instances
-			(project ""
+			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "U7")
-					(unit 3)
+					(reference "#PWR027")
+					(unit 1)
 				)
 			)
 		)
@@ -7268,74 +6975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 58.42 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d665181-9fdf-499c-81f4-fee199adcf31")
-		(property "Reference" "D8"
-			(at 58.7375 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 58.7375 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e87a36f9-f39c-497d-b386-32cf0a8b6c45")
-		)
-		(pin "1"
-			(uuid "94146a91-5e2a-4de3-93fe-0e6367a757e6")
-		)
-		(instances
-			(project ""
-				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 52.07 154.94 0)
 		(unit 1)
@@ -7420,7 +7059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.2k"
 			(at 167.64 124.4599 0)
 			(effects
 				(font
@@ -7664,72 +7303,6 @@
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 38.1 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41bf7b1c-2cc4-4153-bc09-42b32b827880")
-		(property "Reference" "#PWR036"
-			(at 38.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 38.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 38.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13b4e21d-658f-4d22-be1b-67443f7220a1")
-		)
-		(instances
-			(project "robo-roach-v1.0"
-				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8071,72 +7644,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 184.15 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "596d5749-b226-4ff2-ac26-f7ca2a0194ea")
-		(property "Reference" "#PWR026"
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 184.15 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 184.15 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90cd665a-1223-45b5-9d6c-e5e9ace70422")
-		)
-		(instances
-			(project "robo-roach-v1.0"
-				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 179.07 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8467,15 +7974,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 215.9 129.54 0)
+		(at 214.63 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "658d2db8-50a9-49f9-92bf-f89ec782f237")
-		(property "Reference" "C1"
-			(at 218.44 128.2762 0)
+		(property "Reference" "XC1"
+			(at 217.17 128.2762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,8 +7990,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 218.44 130.8162 0)
+		(property "Value" "10u"
+			(at 217.17 130.8162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +8000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 129.54 0)
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 129.54 0)
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8018,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 215.9 129.54 0)
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8035,7 @@
 		(instances
 			(project ""
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "C1")
+					(reference "XC1")
 					(unit 1)
 				)
 			)
@@ -8601,33 +8108,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 120.65 92.71 0)
+		(lib_id "Device:C_Small")
+		(at 207.01 87.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69025558-9860-447a-9030-8f6de1905736")
-		(property "Reference" "U7"
-			(at 120.65 82.55 0)
+		(uuid "6bce5398-081c-4686-865f-91f9fc34f12b")
+		(property "Reference" "XC5"
+			(at 204.47 86.3662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
-			(at 120.65 85.09 0)
+		(property "Value" "10u"
+			(at 204.47 88.9062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 92.71 0)
+			(at 207.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,7 +8145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 92.71 0)
+			(at 207.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,44 +8153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier"
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 120.65 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 120.65 92.71 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,33 +8163,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3392f46f-e2ef-4ee6-922d-3dbc32e69927")
-		)
-		(pin "6"
-			(uuid "a83fb662-edb1-4a2b-a69f-827718a2fffa")
-		)
-		(pin "8"
-			(uuid "5ae9fef9-3fbc-4a90-954d-15e896853148")
+			(uuid "e85b7e6f-8b8d-481e-81b4-3988354a21f5")
 		)
 		(pin "1"
-			(uuid "0ba04c80-9a46-42ce-8034-00ef0a7de2eb")
-		)
-		(pin "7"
-			(uuid "9fad9bfb-c863-4ee8-a82f-1414537c26fc")
-		)
-		(pin "3"
-			(uuid "3012798b-e07b-4670-9115-cd9ec0985875")
-		)
-		(pin "5"
-			(uuid "684d43a6-58da-46f9-9607-0506c668f907")
-		)
-		(pin "4"
-			(uuid "e6c21d89-31e2-4cf8-80e8-7f1011866a16")
+			(uuid "90cbf6e3-c24e-4227-8a14-546156703d90")
 		)
 		(instances
-			(project ""
+			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "U7")
+					(reference "XC5")
 					(unit 1)
 				)
 			)
@@ -8740,7 +8195,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2u"
 			(at 232.41 123.19 90)
 			(effects
 				(font
@@ -8808,7 +8263,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.24M"
 			(at 120.65 74.93 90)
 			(effects
 				(font
@@ -9007,6 +8462,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 161.29 92.71 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7823af16-0d4f-44dd-8bfa-f3047714dd7f")
+		(property "Reference" "U7"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV358"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "de61468c-0862-46db-9430-674acb944b68")
+		)
+		(pin "3"
+			(uuid "39127e2c-cae7-4679-8104-ce9006386bf9")
+		)
+		(pin "6"
+			(uuid "28fff89c-792c-4cb1-ae6e-10ed10b23bd7")
+		)
+		(pin "5"
+			(uuid "81418f06-9ff3-4102-94a1-7647cef88927")
+		)
+		(pin "1"
+			(uuid "137cf622-97aa-468e-a212-e430cc4d14f1")
+		)
+		(pin "2"
+			(uuid "43df8732-e1a2-4670-b12d-a59a97dc3e1e")
+		)
+		(pin "4"
+			(uuid "a30792b2-91f7-4a08-bc9f-07f3e59ad8d6")
+		)
+		(pin "7"
+			(uuid "ada009f3-e33f-476a-a96d-8d18b7a6d754")
+		)
+		(instances
+			(project ""
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 191.77 140.97 0)
 		(unit 1)
@@ -9077,6 +8618,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 120.65 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8338c535-c46a-4dd8-b3fa-c74bdac8a5d4")
+		(property "Reference" "U7"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV358"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "de61468c-0862-46db-9430-674acb944b68")
+		)
+		(pin "3"
+			(uuid "39127e2c-cae7-4679-8104-ce9006386bf9")
+		)
+		(pin "6"
+			(uuid "28fff89c-792c-4cb1-ae6e-10ed10b23bd7")
+		)
+		(pin "5"
+			(uuid "81418f06-9ff3-4102-94a1-7647cef88927")
+		)
+		(pin "1"
+			(uuid "137cf622-97aa-468e-a212-e430cc4d14f1")
+		)
+		(pin "2"
+			(uuid "43df8732-e1a2-4670-b12d-a59a97dc3e1e")
+		)
+		(pin "4"
+			(uuid "a30792b2-91f7-4a08-bc9f-07f3e59ad8d6")
+		)
+		(pin "7"
+			(uuid "ada009f3-e33f-476a-a96d-8d18b7a6d754")
+		)
+		(instances
+			(project ""
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Photo")
 		(at 107.95 95.25 90)
 		(mirror x)
@@ -9095,7 +8722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Photo"
+		(property "Value" "VTP9812FH"
 			(at 102.87 95.5674 90)
 			(effects
 				(font
@@ -9104,7 +8731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 107.95 93.98 0)
 			(effects
 				(font
@@ -9245,7 +8872,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.2k"
 			(at 254 88.8999 0)
 			(effects
 				(font
@@ -9438,7 +9065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e3bf92b-f3b5-4bcc-8d64-cc29646472a3")
-		(property "Reference" "C4"
+		(property "Reference" "XC4"
 			(at 76.2 35.5535 0)
 			(effects
 				(font
@@ -9492,7 +9119,7 @@
 		(instances
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "C4")
+					(reference "XC4")
 					(unit 1)
 				)
 			)
@@ -9653,7 +9280,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.3p"
 			(at 120.6563 64.77 90)
 			(effects
 				(font
@@ -9842,72 +9469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 38.1 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a6ed526-8cd0-4977-bab5-32882dce827c")
-		(property "Reference" "#PWR037"
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "950b8717-ea7d-4d32-907b-65232401096e")
-		)
-		(instances
-			(project "robo-roach-v1.0"
-				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 191.77 130.81 90)
 		(unit 1)
@@ -9926,7 +9487,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "SPST"
 			(at 193.04 132.0799 90)
 			(effects
 				(font
@@ -10064,7 +9625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Photo"
+		(property "Value" "VTP9812FH"
 			(at 143.51 95.5674 90)
 			(effects
 				(font
@@ -10073,7 +9634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 148.59 93.98 0)
 			(effects
 				(font
@@ -10199,80 +9760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oscillator:ASCO")
-		(at 38.1 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4375ae5-299b-48c1-988c-00c1a19c7053")
-		(property "Reference" "X1"
-			(at 49.53 85.1214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ASCO"
-			(at 49.53 87.6614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm"
-			(at 40.64 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Oscillators/ASCO.pdf"
-			(at 32.385 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Crystal Clock Oscillator, Abracon ASCO"
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d54ba3bc-af57-499e-b491-f76158bbde51")
-		)
-		(pin "1"
-			(uuid "20718b27-4e48-48c5-8bb2-300d8f9aa7ee")
-		)
-		(pin "3"
-			(uuid "30289c9c-66a5-4a6b-bfa6-ed3abd49a325")
-		)
-		(pin "2"
-			(uuid "a6feb9da-f6f0-40f6-acf6-743b0ac701f4")
-		)
-		(instances
-			(project ""
-				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 245.11 142.24 0)
 		(unit 1)
@@ -10291,7 +9778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "180k"
 			(at 247.65 143.5099 0)
 			(effects
 				(font
@@ -10344,7 +9831,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 132.08 0)
+		(at 214.63 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10353,7 +9840,7 @@
 		(fields_autoplaced yes)
 		(uuid "acf492fb-b562-4b69-8bda-82e683740f5c")
 		(property "Reference" "#PWR019"
-			(at 215.9 138.43 0)
+			(at 214.63 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +9849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 137.16 0)
+			(at 214.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10370,7 +9857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 132.08 0)
+			(at 214.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,7 +9866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 132.08 0)
+			(at 214.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,7 +9875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 132.08 0)
+			(at 214.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,6 +9890,72 @@
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 261.62 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad3a2f2a-bd26-4412-a892-16f0d3536fdd")
+		(property "Reference" "#PWR046"
+			(at 261.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 261.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 261.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c95f3270-5699-42d0-9d91-02f848a7ea79")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10470,128 +10023,6 @@
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "#PWR025")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 161.29 92.71 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0755c91-3872-4f99-8b80-ab8f960c8062")
-		(property "Reference" "U7"
-			(at 161.29 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 161.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 161.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3392f46f-e2ef-4ee6-922d-3dbc32e69928")
-		)
-		(pin "6"
-			(uuid "a83fb662-edb1-4a2b-a69f-827718a2fffb")
-		)
-		(pin "8"
-			(uuid "5ae9fef9-3fbc-4a90-954d-15e896853149")
-		)
-		(pin "1"
-			(uuid "0ba04c80-9a46-42ce-8034-00ef0a7de2ec")
-		)
-		(pin "7"
-			(uuid "9fad9bfb-c863-4ee8-a82f-1414537c26fd")
-		)
-		(pin "3"
-			(uuid "3012798b-e07b-4670-9115-cd9ec0985876")
-		)
-		(pin "5"
-			(uuid "684d43a6-58da-46f9-9607-0506c668f908")
-		)
-		(pin "4"
-			(uuid "e6c21d89-31e2-4cf8-80e8-7f1011866a17")
-		)
-		(instances
-			(project ""
-				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "U7")
-					(unit 2)
 				)
 			)
 		)
@@ -10685,7 +10116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "7.32k"
 			(at 215.9 93.9799 0)
 			(effects
 				(font
@@ -10820,7 +10251,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.3p"
 			(at 161.2963 64.77 90)
 			(effects
 				(font
@@ -11080,6 +10511,94 @@
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "J2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 189.23 90.17 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c25e6496-a8ab-4271-9d7d-4825fa17b99c")
+		(property "Reference" "U7"
+			(at 187.96 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMV358"
+			(at 187.96 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "de61468c-0862-46db-9430-674acb944b68")
+		)
+		(pin "3"
+			(uuid "39127e2c-cae7-4679-8104-ce9006386bf9")
+		)
+		(pin "6"
+			(uuid "28fff89c-792c-4cb1-ae6e-10ed10b23bd7")
+		)
+		(pin "5"
+			(uuid "81418f06-9ff3-4102-94a1-7647cef88927")
+		)
+		(pin "1"
+			(uuid "137cf622-97aa-468e-a212-e430cc4d14f1")
+		)
+		(pin "2"
+			(uuid "43df8732-e1a2-4670-b12d-a59a97dc3e1e")
+		)
+		(pin "4"
+			(uuid "a30792b2-91f7-4a08-bc9f-07f3e59ad8d6")
+		)
+		(pin "7"
+			(uuid "ada009f3-e33f-476a-a96d-8d18b7a6d754")
+		)
+		(instances
+			(project ""
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "U7")
+					(unit 3)
 				)
 			)
 		)
@@ -11364,17 +10883,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 255.27 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c841d338-8286-4a54-8868-533fc18cc913")
+		(property "Reference" "XC4"
+			(at 257.81 140.9762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 257.81 143.5162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2314ce7-feef-4fe2-8c54-6d364e92f9a4")
+		)
+		(pin "1"
+			(uuid "48634b6f-874b-4041-bbfc-f0b44ad2a713")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "XC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 184.15 97.79 0)
+		(at 261.62 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d17f40d5-6381-44dd-a284-1b2bded29911")
-		(property "Reference" "#PWR027"
-			(at 184.15 104.14 0)
+		(uuid "ca99feef-26fd-487f-b6c9-ba8369f85293")
+		(property "Reference" "#PWR047"
+			(at 261.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11383,7 +10971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 102.87 0)
+			(at 261.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11391,7 +10979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 97.79 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,7 +10988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 97.79 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11409,7 +10997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 97.79 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,12 +11006,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "81ffb8ad-6dc6-4fbd-b1f0-ee28c08b0742")
+			(uuid "0954cde2-9325-4b5e-b7c6-6d0f6aad0b09")
 		)
 		(instances
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
-					(reference "#PWR027")
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 186.69 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccfdba51-1333-4e62-9496-6dae6f840d5a")
+		(property "Reference" "#PWR026"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 186.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ace0c35-ee2d-4399-a02b-7527bae61aa0")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11628,17 +11282,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 245.11 139.7 0)
+		(lib_id "power:GND")
+		(at 207.01 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e50b9703-10ba-412f-981a-d6675c38bee8")
-		(property "Reference" "#PWR010"
-			(at 245.11 143.51 0)
+		(uuid "dbe9edc9-a305-4e07-bba0-0342179d6003")
+		(property "Reference" "#PWR045"
+			(at 207.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,8 +11300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 245.11 134.62 0)
+		(property "Value" "GND"
+			(at 207.01 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11655,7 +11309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 139.7 0)
+			(at 207.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +11318,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 139.7 0)
+			(at 207.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ace6f9-8789-4a10-b889-2b478224c708")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 255.27 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e50b9703-10ba-412f-981a-d6675c38bee8")
+		(property "Reference" "#PWR010"
+			(at 255.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +11393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 245.11 139.7 0)
+			(at 255.27 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11712,7 +11432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 151.13 124.4599 0)
 			(effects
 				(font
@@ -11852,7 +11572,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.24M"
 			(at 161.29 74.93 90)
 			(effects
 				(font
@@ -12244,6 +11964,72 @@
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fad19bd2-4770-448d-9df2-f939395ab5d7")
+		(property "Reference" "#PWR043"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0226637f-a910-4bad-9c28-43fda511cd11")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
