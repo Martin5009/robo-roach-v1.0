@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "robo-roach")(type "KiCad")(uri "${KIPRJMOD}/robo-roach.kicad_sym")(options "")(descr ""))
+)
