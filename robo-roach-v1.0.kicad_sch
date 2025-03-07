@@ -6292,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 93.98 40.64)
+			(xy 88.9 40.64) (xy 96.52 40.64)
 		)
 		(stroke
 			(width 0)
@@ -16697,6 +16697,72 @@
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 96.52 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da72b3be-d3e8-4bd4-b6e8-0c2a55f9b49e")
+		(property "Reference" "#PWR064"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 96.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8db457f-37f0-46c4-8273-1787e770251d")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
