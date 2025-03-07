@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "robo-roach")(type "KiCad")(uri "${KIPRJMOD}/robo-roach.pretty")(options "")(descr ""))
+)

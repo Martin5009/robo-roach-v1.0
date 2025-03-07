@@ -458,6 +458,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -1576,7 +1683,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1594,7 +1701,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1612,7 +1719,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1630,7 +1737,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1648,7 +1755,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1666,7 +1773,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2891,7 +2998,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2909,7 +3016,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2927,7 +3034,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2945,7 +3052,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2963,7 +3070,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2981,7 +3088,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3741,6 +3848,113 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5417,6 +5631,12 @@
 		(uuid "8ce42489-cd55-4185-ba75-2519a22bde48")
 	)
 	(junction
+		(at 30.48 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d97f67c-42c5-42f3-94a0-8359bde78ec5")
+	)
+	(junction
 		(at 359.41 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5427,6 +5647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96e3b607-b86d-4765-8c3a-f5f85d4dbd47")
+	)
+	(junction
+		(at 30.48 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a7ef47e-fcf1-4dee-96b9-3e357254a8ac")
 	)
 	(junction
 		(at 181.61 148.59)
@@ -5513,10 +5739,6 @@
 	(no_connect
 		(at 365.76 73.66)
 		(uuid "9319cab0-f3af-4a26-a8cc-a66ab1f00666")
-	)
-	(no_connect
-		(at 58.42 40.64)
-		(uuid "992431d0-3346-41b6-afce-f16a984e97ad")
 	)
 	(wire
 		(pts
@@ -5610,7 +5832,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 245.11) (xy 43.18 245.11)
+			(xy 27.94 245.11) (xy 30.48 245.11)
 		)
 		(stroke
 			(width 0)
@@ -5660,7 +5882,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 168.91) (xy 43.18 168.91)
+			(xy 27.94 168.91) (xy 30.48 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5797,16 +6019,6 @@
 			(type default)
 		)
 		(uuid "2a1d901c-a3e7-4eb9-98ed-2450127faa82")
-	)
-	(wire
-		(pts
-			(xy 101.6 245.11) (xy 106.68 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bc004eb-9834-4c37-8a7c-12f262f3630b")
 	)
 	(wire
 		(pts
@@ -6167,6 +6379,16 @@
 			(type default)
 		)
 		(uuid "6aa52664-418c-4b5a-88f8-d0d1b9367397")
+	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd6f8aa-7f04-4a6f-922d-f141e2723b1c")
 	)
 	(wire
 		(pts
@@ -6650,6 +6872,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 245.11) (xy 106.68 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8965e06-f14d-4c3f-8e94-3d1fba474d79")
+	)
+	(wire
+		(pts
+			(xy 30.48 245.11) (xy 43.18 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa1a246-801c-4885-9726-d1ebe8dd8960")
+	)
+	(wire
+		(pts
 			(xy 80.01 124.46) (xy 80.01 128.27)
 		)
 		(stroke
@@ -6707,6 +6949,16 @@
 			(type default)
 		)
 		(uuid "c2fbfee4-5bbd-481c-8f66-569a503f3d0e")
+	)
+	(wire
+		(pts
+			(xy 30.48 168.91) (xy 43.18 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40f25d4-6830-49ee-a40d-8f2dbf37f750")
 	)
 	(wire
 		(pts
@@ -6988,7 +7240,7 @@
 		)
 		(uuid "fc1fd9c9-7b04-4ba0-bf0c-b97b5d6a934d")
 	)
-	(label "PA1"
+	(label "PB1"
 		(at 187.96 208.28 0)
 		(effects
 			(font
@@ -7008,7 +7260,7 @@
 		)
 		(uuid "09e4a35e-81ae-4f94-8d55-25f0b1c340a3")
 	)
-	(label "PB0"
+	(label "PA3"
 		(at 158.75 153.67 0)
 		(effects
 			(font
@@ -7278,6 +7530,16 @@
 		)
 		(uuid "e05b2614-cd8e-4416-a38d-747db23cc6c1")
 	)
+	(label "PB1"
+		(at 53.34 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e13aa37d-695b-4c4d-b5ca-da7438d08ded")
+	)
 	(label "PB2"
 		(at 53.34 43.18 0)
 		(effects
@@ -7328,7 +7590,7 @@
 		)
 		(uuid "f731fad0-ff58-49a3-a165-40b0a7c2fe0c")
 	)
-	(label "PA0"
+	(label "PB0"
 		(at 187.96 205.74 0)
 		(effects
 			(font
@@ -7501,7 +7763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 260.35 208.28 0)
 			(effects
 				(font
@@ -7957,6 +8219,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 374.65 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "105c118c-aeba-4c6b-be57-4f84e9318568")
+		(property "Reference" "H3"
+			(at 377.19 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 377.19 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 374.65 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 374.65 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4e06443-5670-4299-aa99-515626c0e4fa")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 377.19 132.08 0)
 		(unit 1)
@@ -8162,6 +8491,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 347.98 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "128c8156-10a1-4738-8f3c-f2ba81741731")
+		(property "Reference" "TP1"
+			(at 350.52 45.2119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 350.52 47.7519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cf0612a-40f6-47f8-8967-036ad243bab4")
+		)
+		(instances
+			(project ""
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:T2N7002AK")
 		(at 179.07 153.67 0)
 		(unit 1)
@@ -8263,7 +8659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 245.11 132.08 0)
 			(effects
 				(font
@@ -8474,7 +8870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-04-TS"
 			(at 71.12 128.27 0)
 			(effects
 				(font
@@ -9004,7 +9400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 224.79 246.38 0)
 			(effects
 				(font
@@ -9073,7 +9469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-04-TS"
 			(at 45.72 204.47 0)
 			(effects
 				(font
@@ -9522,6 +9918,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40389f5a-4f60-4ad0-9e91-ae43d62459e0")
+		(property "Reference" "TP6"
+			(at 33.02 170.9419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR_L"
+			(at 33.02 173.4819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38543079-62e6-432d-bcea-3ac127ef9785")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 386.08 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "406f47f6-db84-4df3-b14d-907aa8c5b7de")
+		(property "Reference" "#PWR063"
+			(at 386.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 386.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc07dc10-6d1a-41c4-bd6b-e05e4131bf4f")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 104.14 133.35 180)
 		(unit 1)
@@ -9683,7 +10212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:ANT11SECQE"
 			(at 360.68 71.12 0)
 			(effects
 				(font
@@ -10010,6 +10539,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 364.49 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526fe144-ef53-49ff-9c19-db6c03b48642")
+		(property "Reference" "H2"
+			(at 367.03 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 367.03 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 364.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 364.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40584d5-50cf-4f5f-a0ee-3bb7d23fac1d")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 133.35 0)
 		(unit 1)
@@ -10202,6 +10798,72 @@
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 354.33 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ceafa8-60c6-43af-bd02-b7ca2c4b3eb6")
+		(property "Reference" "#PWR013"
+			(at 354.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 354.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 354.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b1d0a94-1178-4c37-9769-954f934466ea")
+		)
+		(instances
+			(project ""
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10571,7 +11233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 224.79 208.28 0)
 			(effects
 				(font
@@ -11110,7 +11772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-04-TS"
 			(at 45.72 128.27 0)
 			(effects
 				(font
@@ -11645,6 +12307,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75f3028b-c0e8-46d1-aa07-7f133259c3ef")
+		(property "Reference" "TP7"
+			(at 33.02 247.1419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR_R"
+			(at 33.02 249.6819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 25.4 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bec17d03-c197-494c-99e1-9c8dbfb812ba")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 354.33 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77e0094b-b8cb-467c-8890-43798f8527de")
+		(property "Reference" "H1"
+			(at 356.87 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 356.87 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 354.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 354.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9066d14-788a-4d86-b7cb-3a63a0392b6b")
+		)
+		(instances
+			(project ""
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LMV358")
 		(at 93.98 245.11 0)
 		(unit 2)
@@ -11758,7 +12554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 353.06 78.486 90)
 			(effects
 				(font
@@ -11801,6 +12597,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 347.98 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79c75157-1837-46c8-aefd-eaf4e1a78069")
+		(property "Reference" "#PWR060"
+			(at 347.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 347.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17087934-c861-4f80-b6a2-9db28468ef20")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 245.11 171.45 0)
 		(mirror x)
@@ -11826,7 +12688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 245.11 171.45 0)
 			(effects
 				(font
@@ -12205,22 +13067,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "1d4b731f-8d5a-48d0-8c84-aeb6f5ac7ab0")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "2e9471f2-eba2-425a-9e25-cfc8a116b3fa")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "ab8fb047-f568-46a6-9de9-a0388f65445f")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "943fd46a-021a-41c6-9e8b-267c6aa59f0e")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "060eea6d-b169-4552-bac8-47fdae88e451")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "34bc4852-c463-486a-a216-0dbd0d6e325f")
 		)
 		(instances
@@ -12261,7 +13123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-04-TS"
 			(at 71.12 204.47 0)
 			(effects
 				(font
@@ -13029,7 +13891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 256.54 132.08 0)
 			(effects
 				(font
@@ -13066,6 +13928,72 @@
 			(project ""
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 360.68 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98ff7f70-0466-42a1-9aea-d762c4d0fed9")
+		(property "Reference" "#PWR061"
+			(at 360.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 360.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 360.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df394399-459d-4369-907b-7e0d408b2c90")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13434,6 +14362,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 373.38 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8039559-8769-4386-9716-e08bb15332aa")
+		(property "Reference" "TP3"
+			(at 375.92 45.2119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 375.92 47.7519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 368.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 373.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3982ad29-1ce2-4842-8fb4-04dd27687cab")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 260.35 246.38 0)
 		(mirror y)
@@ -13461,7 +14456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 260.35 246.38 0)
 			(effects
 				(font
@@ -14044,6 +15039,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 374.65 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7f70a2-eec9-481c-b5df-8b2b6f038c66")
+		(property "Reference" "#PWR017"
+			(at 374.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "871ed7d2-ef01-4a3c-84d9-f8e300f63b31")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 237.49 129.54 0)
 		(unit 1)
@@ -14104,6 +15165,72 @@
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 364.49 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc9778ad-cccb-4a29-8ff2-fffa73ac7ca8")
+		(property "Reference" "#PWR016"
+			(at 364.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef2ed84a-d723-4264-ad27-a2dc11e8030d")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14339,7 +15466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+		(property "Footprint" "robo-roach:SWR204-NRTN-D03-ST-GA"
 			(at 72.39 88.9 0)
 			(effects
 				(font
@@ -14736,28 +15863,94 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "2736deba-cc6d-4530-9a80-43e1724bf8fa")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "f1c6ad56-2cba-468f-9152-1375ebc3c9c2")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "a61988cc-cbaa-43aa-b8c9-e3d88386ea96")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "5f67fc2d-0f5a-4a5b-8ba4-b6ed1e2353cf")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "7f4bf05a-8f7f-44a6-b8fd-0fa66990deed")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "a55281d1-1e5a-4909-aa80-1aa167ee995d")
 		)
 		(instances
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 373.38 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4d0132f-bdbe-4f23-9a11-e3058a3f2bad")
+		(property "Reference" "#PWR062"
+			(at 373.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 373.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 373.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b783a5bc-ab95-493a-8028-8815301000ae")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -14894,6 +16087,73 @@
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 386.08 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7f6c976-1ca1-4027-b998-49facc00e7b9")
+		(property "Reference" "TP8"
+			(at 388.62 39.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 388.62 42.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 391.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 386.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c56aead3-fe7a-4f9b-969f-2dbd21de3958")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -15334,7 +16594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo-roach:LHA-02-TS"
 			(at 256.54 171.45 0)
 			(effects
 				(font
@@ -15575,6 +16835,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd6dbb0e-8c28-4ea4-b0dc-cec71cefd9e6")
+		(property "Reference" "TP4"
+			(at 104.14 247.1419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VL_R"
+			(at 104.14 249.6819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 96.52 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b97ff5d-dca3-4316-9927-89cb7ea684d1")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_Optical:TSOP382xx")
 		(at 114.3 128.27 0)
 		(mirror y)
@@ -15641,6 +16968,140 @@
 			(project "robo-roach-v1.0"
 				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34c850c-6f9e-4777-805e-78a8eafa45e5")
+		(property "Reference" "TP5"
+			(at 104.14 170.9419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VL_L"
+			(at 104.14 173.4819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "083105ef-f4ea-46c0-806b-65a898993819")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 360.68 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a9151c-02b2-4e49-a8d3-319d810766c7")
+		(property "Reference" "TP2"
+			(at 363.22 45.2119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 363.22 47.7519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 355.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 360.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22614567-1683-4adc-b83e-d92955210c82")
+		)
+		(instances
+			(project "robo-roach-v1.0"
+				(path "/bfbac227-b3e4-47e8-9776-0e31b83cca14"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
